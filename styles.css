@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    transition: 200ms;
+}
+
+.header__search {
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background: rgb(218, 93, 93); */
+    background: linear-gradient(0deg, rgba(218, 93, 93, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(106, 79, 79, 1) 100%);
+}
+
+.header__search__pokeball {
+    border-radius: 35px;
+    box-shadow: 0 0 10px #666;
+    height: 80%;
+}
+
+.header__search__list {
+    height: 3rem;
+    font-weight: 600;
+    font-size: larger;
+    width: 30rem;
+}
+
+.poke__title {
+    height: 16rem;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+.nostalgiaRoom {
+    text-align: center;
+    height: 6rem;
+    /* background: rgb(241,222,222); */
+    background: linear-gradient(180deg, rgba(241, 222, 222, 1) 0%, rgba(218, 93, 93, 0.01) 100%);
+}
+
+.nostalgiaRoom_mp3 {
+    margin: 2rem 2rem;
+}
+
+.articule {
+    color: #666;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+    
+}
+
+
+.articule__head {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    margin: 0 20%;
+}
+
+.articule__poke {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    height: 370px;
+    width: 45%;
+    border-radius: 8px;
+    border: 2px solid #5e607e;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(42, 159, 200, 1) 62%, rgba(0, 164, 255, 1) 89%);
+}
+
+.articule__poke__pik {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.articule__poke__pik__img{
+    width: 200%;
+}
+
+.articule__description {
+    border: 1.5px solid #5e607e;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 30%;
+    border-radius: 8px;
+    padding: 2%;
+    font-size: larger;
+    font-weight: 600;
+    margin: 2rem auto;
+}
+
+.gifbox{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.gifbox__img{
+    width: 25%;
+    border: 2px solid;
+    border-radius: 16px;
+}
+
+.articule__box{
+    width: 100%;
+} 
+
+/*--------------------------------------------------------------------*/
+
+.pokedex-frame{
+    margin: 2rem;
+    width: 80%;
+    border: 3px solid black;
+    border-radius: 64px;
+    padding: 4rem;
+}
+
+.haveFun{
+    font-size: larger;
+    font-weight: 500;
+}
