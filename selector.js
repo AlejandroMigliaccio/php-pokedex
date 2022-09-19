@@ -1,4 +1,4 @@
-const apiKey= "NyD2FwY19HRJyrd0f6B2FhWUktSZMIuo"
+const apiKey= "Your api key"
 
 $(document).ready(function () {
     $('#Articule').hide();
